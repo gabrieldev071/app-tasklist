@@ -1,0 +1,5 @@
+Nesta aula, aprendemos:
+
+Utilizar data-attributes
+Utilizar o método addEventListener para escutar eventos no elemento
+Prevenir o comportamento padrão do formulário

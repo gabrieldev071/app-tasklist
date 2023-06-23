@@ -1,0 +1,145 @@
+:root {
+  --eden-50: #f0fdfc;
+  --eden-100: #ccfbf9;
+  --eden-200: #99f6f5;
+  --eden-300: #5ee7ea;
+  --eden-400: #2dcbd4;
+  --eden-500: #14acb8;
+  --eden-600: #0d8894;
+  --eden-700: #0f6b76;
+  --eden-800: #11565f;
+  --eden-900: #13474e;
+  --eden-950: #04282f;
+
+}
+
+* {
+  margin: 0;
+}
+
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  font-family: 'Sarala', sans-serif;
+}
+
+.todo-list {
+  background: linear-gradient(to bottom right, var(--eden-400), var(--eden-700));
+  padding: 1rem;
+  min-width: 400px;
+  min-height: 300px;
+}
+
+.title {
+  border-bottom: 1px solid var(--eden-50);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: start;
+  margin: 1rem 0;
+  padding: 1rem;
+  color: white;
+  height: 100%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-input,
+.form-button {
+  border-radius: 0;
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.form-input {
+  outline: none;
+  background-color: white;
+  border: 1px solid white;
+  flex-grow: 1;
+}
+
+.form-button {
+  border: 1px;
+  background-color: white;
+  color: var(--eden-700);
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 0.25rem;
+}
+
+.form-button:hover {
+  background-color: var(--eden-50);
+  color: var(--eden-700);
+  border-color: var(--eden-700);
+}
+
+.form-input:focus {
+  background-color: var(--eden-50);
+  color: var(--eden-700);
+  border-color: var(--eden-700);
+}
+
+body {
+  margin: 0;
+}
+
+.list {
+  padding: 1rem 0;
+  list-style: none;
+  width: 100%;
+}
+
+.task {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--eden-50);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding: 1rem 1rem;
+  gap: 0.5rem;
+}
+
+.check-button, .delete-button {
+  background-color: white;
+  color: var(--eden-700);
+  border: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+  max-height: 2rem;
+}
+
+
+.check-button:hover, .delete-button:hover {
+  background-color: var(--eden-50);
+  color: var(--eden-700);
+  border-color: var(--eden-700);
+}
+
+.check-icon {
+  display: block;
+  padding: 1px;
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.content {
+  margin: 0;
+  width: 70%;
+}
+
+.task.done .content {
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=style.css.map */

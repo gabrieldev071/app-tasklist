@@ -1,0 +1,18 @@
+Para que a formatação de tarefa concluída seja aplicada no comprimento total do elemento, precisamos colocar essa classe CSS no elemento pai do parágrafo, ou seja na li. Qual opção correta para essa funcionalidade
+
+const botaoConclui = evento.target
+
+const tarefaCompleta = botaoConclui.parentElement
+
+tarefaCompleta.classList.toggle('done')
+
+Alternativa Correta.
+
+Através da variável botaoConclui capturamos qual elemento foi clicado, depois utilizamos a propriedade parentElement para subir um nó na árvore, por fim colocamos o método toggle que vai adicionar a classe done quando clicarmos no botão
+
+Nesta aula, aprendemos:
+
+Adicionar classe CSS utilizando o método toggle
+Utilizar o atributo parentElement para subir um elemento na árvore do DOM
+Encontrar o alvo do evento utilizando a propriedade target
+Utilizar IIFE
