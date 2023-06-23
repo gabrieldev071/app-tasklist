@@ -1,37 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BioRhyme&amp;family=Space+Mono&amp;display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=BioRhyme&amp;family=Space+Mono&amp;display=swap">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <!-- CSS style -->
+  <!-- Font Awesome -->
 
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://kit.fontawesome.com/78f50e1103.js" crossorigin="anonymous"></script>
+
+  <!-- CSS style -->
+
+  <link rel="stylesheet" href="./assets/css/style.css">
 
   <title>Task List</title>
 </head>
+
 <body>
   <div class="app">
     <div class="todo-list">
       <h1 class="title">
-        Taks List 
+        Taks List
       </h1>
-      
+
       <form class="form" action="">
         <input class="form-input" type="text" data-form-input>
         <button class="form-button" data-form-button> Nova Tarefa </button>
       </form>
 
       <ul class="list" data-list>
-        
+
       </ul>
     </div>
-    <script type="module" src="main.js"></script>
+  </div>
+  <footer class="container__footer">
+    <p>Desenvolvido por <a class="container--link" href="https://www.linkedin.com/in/gabriel-albuquerque-souza-desenvolvedor/" target="_blank"
+        rel="noopener noreferrer"> Gabriel Souza</a> - Copyright 2023 ©.
+    </p>
+    <p>todos os direitos reservados. Deploy Github:
+      <a href="https://github.com/gabrieldev071/app-tasklist" target="_blank" rel="noopener noreferrer"> 
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </footer>
+  <script type="module" src="main.js"></script>
 </body>
+
 </html>

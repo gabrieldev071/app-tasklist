@@ -10,33 +10,39 @@
   --eden-800: #11565f;
   --eden-900: #13474e;
   --eden-950: #04282f;
-/* https://uicolors.app/create - #11565f*/
+  /* https://uicolors.app/create - #11565f*/
 }
 
 * {
   margin: 0;
 }
 
+body {
+  background: var(--eden-700);
+}
 
 .app {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100vw;
-  min-height: 100vh;
+  min-height: 89vh;
   font-family: 'Sarala', sans-serif;
+  gap: 3rem;
 }
 
 .todo-list {
   background: linear-gradient(to bottom right, var(--eden-400), var(--eden-700));
   padding: 1rem;
-  min-width: 45vw;
+  min-width: 60vw;
   min-height: 65vh;
+  max-width: 80vw;
 }
 
 .title {
   border-bottom: 1px solid var(--eden-50);
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   text-align: start;
   margin: 1rem 0;
@@ -63,6 +69,7 @@
   background-color: white;
   border: 1px solid white;
   flex-grow: 1;
+  color: var(--eden-700);
 }
 
 .form-button {
@@ -83,7 +90,6 @@
 
 .form-input:focus {
   background-color: var(--eden-50);
-  color: var(--eden-700);
   border-color: var(--eden-700);
 }
 
@@ -143,4 +149,57 @@ body {
   text-decoration: line-through;
 }
 
+.container__footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding: 2rem;
+  gap: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--eden-50);
+  
+}
+
+.container--link {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: var(--eden-100);
+}
+
+.container--link:after {
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background-color: var(--eden-100);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.container--link:hover::after {
+  width: 100%;
+}
+
+.container--link:link {
+  color: var(--eden-50);
+}
+
+.container--link:visited {
+  color: var(--eden-300);
+}
+
+.container__footer p {
+  display: inline-block;
+}
+
+i {
+  color: var(--eden-300);
+}
 /*# sourceMappingURL=style.css.map */
