@@ -1,6 +1,5 @@
 // chamando os componentes encapsulados
 
-
 import botaoConclui from "./componentes/concluiTarefa.js";
 import BotaoDeleta from "./componentes/deletaTarefas.js";
 
@@ -43,9 +42,17 @@ const criarTarefa = (evento) => {
     /* Verifica se o input está vazio */
     const verificaVazio = (evento) => {
         evento.preventDefault();
-    
+
         const input = document.querySelector('[data-form-input]');
         const valor = input.value;
+        /* o código abaixo verifica remove os espaços em branco (espaços, tabulações, quebras de linha)  */
+
+        /* const texto = "   Olá, mundo!   ";
+        const textoSemEspacos = texto.trim();
+
+        console.log(textoSemEspacos); // "Olá, mundo!"
+        */
+
         const valorComparacao = valor.trim();
     
         if(valorComparacao === ""){

@@ -18,7 +18,7 @@
         //ele descobre qual o alvo do evento através do target
         const botaoConclui = evento.target;
 
-        //ele sobe um nó no elemento, ou seja, sobre um item, ou para o PAI do elemento
+        //ele sobe um nó no elemento, ou seja, sobre um item, ou para o PAI do elemento e addiona a classe
         const tarefaCompleta = botaoConclui.parentElement;
         
         // o método toggle vai executar a classe done ao clicar o botão e retorna true ou false
