@@ -58,6 +58,10 @@ Foi utilizado apenas uma paleta de cores para aplicar no porjeto. Você pode vis
         - Utilização de funções.
         - Utilização de condicionais if e else.
         - Manipulação string de acordo com input do usuário.
+        - Explorar o uso de data-attributes para armazenar informações adicionais em elementos.
+        - Utilizar import/export para importar e exportar módulos JavaScript.
+        - Identificar o alvo de eventos utilizando a propriedade target.
+        - Utilizar o atributo parentElement para navegar na estrutura do DOM e acessar elementos pai
 
 - HTML5:
 
