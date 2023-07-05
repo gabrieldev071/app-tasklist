@@ -8,7 +8,7 @@
 
 <h2>Sobre o projeto:</h2>
 
-<p> Uma aplicação web de lista de tarefas/anotações onde é possível criar, finalizar ou excluir tarefas. O projeto foi desenvolvido durante a formação Front-end do Programa One - Oracle Next Education T4. O objetivo do projeto foi trabalhar e entender como funciona a manipualção do DOM (Document Object Model) com JavaScript puro. </p>
+<p> Uma aplicação web de lista de tarefas/anotações onde é possível criar, finalizar ou excluir tarefas. O projeto foi desenvolvido durante a formação Front-end do Programa One - Oracle Next Education T4. O objetivo do projeto foi trabalhar e entender como funciona a manipulação do DOM (Document Object Model) com JavaScript puro. </p>
 
 <h2 id="projeto">Apresentação do projeto:</h2> 
 
