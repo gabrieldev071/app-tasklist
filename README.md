@@ -8,7 +8,7 @@
 
 <h2>Sobre o projeto:</h2>
 
-<p> Uma aplicação web de lista de tarefas/anotações onde é possível criar, finalizar ou excluir tarefas. O projeto foi desenvolvido durante a formação Front-end do Programa One - Oracle Next Education T4. O objetivo do projeto foi trabalhar e entender como funciona a manipualção do DOM (Document Object Model) com JavaScript puro. </p>
+<p> Uma aplicação web de lista de tarefas/anotações onde é possível criar, finalizar ou excluir tarefas. O projeto foi desenvolvido durante a formação Front-end do Programa One - Oracle Next Education T4. O objetivo do projeto foi trabalhar e entender como funciona a manipulação do DOM (Document Object Model) com JavaScript puro. </p>
 
 <h2 id="projeto">Apresentação do projeto:</h2> 
 
@@ -65,7 +65,8 @@ Foi utilizado apenas uma paleta de cores para aplicar no porjeto. Você pode vis
 
 - HTML5:
 
-        - Tags como section, div, span, footer, nav, ul button, img, a,  h1, p.
+        - Tags como section, form, span, footer, nav, ul button, img, a,  h1, p, footer.
+        - Uso padrão de nomeclatura de classes no HTML com metodologia (BEM)
         - Utilização de Custom Data Attributes para manipualção em JS. 
         - Adicionar mais de um nome de classe a um elemento html.
         - Adicionar link de fonte padrão a ser utilizada na aplicação na sessão head do index.html.
